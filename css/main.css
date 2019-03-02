@@ -124,6 +124,7 @@ nav > div{
 
 .initial{
     width: 100%;
+    background-color: brown;
     height: 100vh;
     background-image: url('../img/bg-img/bg-1.jpg');
     background-repeat: no-repeat;
@@ -215,9 +216,18 @@ nav > div{
     font-family: 'Palanquin Dark', sans-serif;
 }
 .owl-carousel{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     height: 100vh;
 }
+.slick-slide {
+    width: 250px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+  }
 .item{
     margin-top: 50px;
     width: 90%;
@@ -580,6 +590,7 @@ nav > div{
     width: 100%;
     height: 300px;
     margin-left: 10px;
+    
 }
 .item{
     margin-top: 70px;
@@ -1285,7 +1296,6 @@ nav > div{
     padding-top: 30px;
     display: grid;   
     grid-template-columns: 100%;
-    background-color: limegreen;
 }
 .mini-page{
     height: 100px;
@@ -1293,7 +1303,6 @@ nav > div{
     display: grid;
     grid-template-columns: 40vw 40vw;
     grid-gap: 0px;
-    background-color: rgb(20, 18, 18);
     justify-content: center;
     align-items: center;
 }
@@ -1323,7 +1332,6 @@ nav > div{
     display: grid;
     grid-template-rows: 1fr;
     justify-content: center;
-    background-color: lightsalmon;
 }
 .info-extra{
     margin-top: 20px;
@@ -1334,7 +1342,7 @@ nav > div{
     justify-items: center;
     align-items: center;
     margin: auto;
-    background-color: #fff;
+    
 }
 
 .extra{
@@ -1441,10 +1449,9 @@ nav > div{
 .header-data{
     background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: 55vw 15vw 15vw 15vw;
+    grid-template-columns: 65vw 10vw 10vw 10vw;
 }
 .header-data >div{
-    border: 1px solid rgb(243, 243, 243);
     border-bottom: none;
 }
 .search-area{
@@ -1454,7 +1461,7 @@ nav > div{
 }
 .search-area input{
     padding: 10px;
-    width: 60%;
+    width: 70%;
     margin: 1px;
     margin-left: 0px;
     border: none;
@@ -1464,7 +1471,7 @@ nav > div{
     font-weight: 600;
 }
 .search-area button{
-    padding: 30px;
+    display: none;
     outline: none;
     cursor: pointer;
     border: none;
@@ -1472,14 +1479,14 @@ nav > div{
     color: rgb(80, 80, 80);
 }
 .header-data img{
-    width: 15px;
-    margin: 30px 25px;
+    width: 20px;
+    margin: 10px 10px;
     margin-bottom: 0px;
 }
 .cart-area span{
     position: absolute;
-    right: -10px;
-    top: 80px;
+    right: -6px;
+    top: 65px;
     color: rgb(250, 11, 11);
     border-radius: 100%;
     padding: 5px;
@@ -1598,7 +1605,7 @@ nav > div{
     font-family: 'Palanquin Dark', sans-serif;
 }
 .owl-carousel{
-    width: 100%;
+    width: 90%;
     height: 300px;
     margin-left: 10px;
 }
@@ -1689,32 +1696,25 @@ nav > div{
  }
 .info-page{
     margin: auto;
-    width: 90%;
+    width: 95%;
     padding-top: 30px;
     display: grid;   
     grid-template-columns: 100%;
-    background-color: limegreen;
 }
 .mini-page{
     height: 100px;
-    margin: auto;
     display: grid;
-    grid-template-columns: 40vw 40vw;
-    grid-gap: 0px;
-    background-color: rgb(20, 18, 18);
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 80vw;
+    grid-gap: 0px;    
 }
 .mini-page .logo{
-    width:  50%;
-    margin-right: 100px;
+    margin: -15px;
+    padding: 0;
 }
 .footer-items{
-    width: 70%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-    
 }
 .footer-items a{
     width: 100%;
@@ -1731,23 +1731,23 @@ nav > div{
     display: grid;
     grid-template-rows: 1fr;
     justify-content: center;
-    background-color: lightsalmon;
 }
 .info-extra{
     margin-top: 20px;
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: 40vw 40vw;
     grid-column-gap: 20px;
     justify-items: center;
     align-items: center;
     margin: auto;
-    background-color: #fff;
+    
 }
 
 .extra{
-    width: 40vw;
-    margin: auto;
+    width: 50vw;
+    margin: 0;
+    padding: 0;
 }
 .extra a{
     display: block;
@@ -1759,14 +1759,20 @@ nav > div{
  .copyright{
      width: 100%;
      display: grid;
-     justify-items: center;
      padding-top: 20px;
-     font-size: 14px;
+     justify-items: center;
+     font-size: 12px;
      color: rgb(153, 153, 153);
+ }
+ .copyright p{
+     padding: 0;
+     width: 80%;
+     text-align: center;
  }
  .copyright a{
      text-decoration: none;
-     font-size: 14px;
+     font-size: 9px;
+     text-align: center;
      color: rgb(255, 255, 255);
  }
 
