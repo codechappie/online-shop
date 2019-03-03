@@ -54,7 +54,7 @@ nav > div{
     width: 30px;
     display: block;
     height: 2px;
-    background-color: cornflowerblue;
+    background-color: rgb(108, 109, 110);
     display: none;
 }
 .header-data{
@@ -73,7 +73,7 @@ nav > div{
 }
 .search-area input{
     padding: 30px;
-    width: 60%;
+    width: 75%;
     margin: 1px;
     margin-left: 0px;
     border: none;
@@ -173,7 +173,7 @@ nav > div{
     margin: 40px 10px;
 }
 .clothes .card{
-    background-color: rgba(221, 221, 221, 0.493);
+    background-color: rgba(255, 255, 255, 0.493);
     display: grid;
     justify-items: center;
     align-items: center;
@@ -183,7 +183,7 @@ nav > div{
 .clothes .card a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #000;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: 'Palanquin Dark', sans-serif;
 }
@@ -205,8 +205,8 @@ nav > div{
 }
 .popular-carousel{
     margin: auto;
-    width: 80%;
-    height: 100vh;
+    width: 90%;
+    height: 80vh;
 }
 .popular-carousel h2{
     margin-top: 70px;
@@ -215,8 +215,9 @@ nav > div{
     font-weight: 900;
     font-family: 'Palanquin Dark', sans-serif;
 }
+
 .owl-carousel{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     height: 100vh;
 }
@@ -224,7 +225,7 @@ nav > div{
     width: 250px;
     height: 200px;
     background-color: cadetblue;
-    margin: 10px;
+    margin: 5px;
     outline: none;
     cursor: pointer;
   }
@@ -299,16 +300,17 @@ nav > div{
     color: red;
 }
 .choose-products .canti input{
+    
     outline: none;
     padding: 5px;
 }
 .choose-products .fa-cart-plus{
-    color: rgb(3, 211, 3);
+    color: rgb(93, 94, 93);
     transition: 1s;
 }
 .choose-products .fa-cart-plus:hover{
     transition: 1s;
-    color: rgb(3, 155, 3);
+    color: rgb(3, 26, 155);
 }
 
  /*FOOTER*/
@@ -392,86 +394,18 @@ nav > div{
 -------------------------------
 -------------------------------
 */
-@media screen and (max-width: 1200px){
-    .container{
-        background-color: #fff;
-        height: 80px;
-        display: grid;
-        grid-template-columns: 6fr 6fr;
-    }
-    header{
-        width: 100%;
-        box-shadow: rgba(107, 107, 107, 0.116) 5px 5px 45px;
-        background-color: #fff;
-        position: fixed;
-        z-index: 99;
-    }
-    nav{
-        width: 100%;
-        display: grid;
-        grid-template-columns: .5fr 0fr 2fr;
-        align-items: center;
-    }
-    nav > div{
-        margin: 0px;
-    }
-    .logo{
-     width: 100%;
-    }
-    .logo img{
-        padding: 15px;
-    }
-    .menu-items ul{
-        list-style: none;
-    }
-    .menu-items ul li{   
-        padding: 20px;
-        float: right;
-        margin-right: 5%;
-    }
-    .menu-items ul li a{
-        text-decoration: none;
-        font-weight: 500;
-        color: #000;
-    }
-    
-    .mobile-menu .a, .b, .c{
-        margin: 4px;
-        padding: 2px;
-        width: 30px;
-        display: block;
-        height: 2px;
-        background-color: cornflowerblue;
-        display: none;
-    }
-    .header-data{
-        background-color: rgb(255, 255, 255);
-        display: grid;
-        grid-template-columns: 4fr 1fr 1fr 1fr;
-    }
-    .search-area{
-        border: 1px solid rgb(218, 216, 216);
-        border-top: none;
-        border-bottom: none;
-    }
+@media screen and (max-width: 1200px){  
     .search-area input{
-        padding: 30px;
-        width: 60%;
+        padding: 30px 20px;
+        width: 70%;
         margin: 1px;
         margin-left: 0px;
         border: none;
+        float: right;
         font-size: 14px;
         outline: none;
         color: rgb(139, 139, 139);
         font-weight: 600;
-    }
-    .search-area button{
-        padding: 30px;
-        outline: none;
-        cursor: pointer;
-        border: none;
-        background-color: rgb(255, 255, 255);
-        color: rgb(80, 80, 80);
     }
     .header-data img{
         width: 20px;
@@ -488,7 +422,6 @@ nav > div{
     .menu-items .megamenu, .menu-items .dropdown{
         display: none;
     }
-    
 }
 
 
@@ -504,9 +437,8 @@ nav > div{
 -----------------------------------
 */
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1024px){
     .container{
-        background-color: #fff;
         height: 80px;
         display: grid;
         grid-template-columns: 4fr 6fr;
@@ -523,7 +455,6 @@ nav > div{
         width: 30px;
         display: block;
         height: 2px;
-        background-color: rgb(136, 136, 136);
     }
     .menu-items{
         display: none;
@@ -744,35 +675,129 @@ nav > div{
 
 /*
 -----------------------------------
------------------------------------
------------------------------------
 ------------MEDIA QUERIES----------
------------------------------------
------------------------------------
 -----------------------------------
 */
 
 @media screen and (max-width: 928px){
     .container{
-        background-color: #fff;
+        background-color: rgb(255, 255, 255);
         height: 80px;
         display: grid;
-        grid-template-columns: 4fr 6fr;
+        grid-template-columns: 12fr;
     }
-    .mobile-menu{
-        cursor: pointer;
-        width: 40px;
-        height: 40px;
-        padding-top: 10px;
-    }
-    .mobile-menu .a, .b, .c{
-        margin:4px;
-        padding: 1px;
-        width: 30px;
-        display: block;
-        height: 2px;
-        background-color: rgb(136, 136, 136);
-    }
+header{
+    width: 100%;
+    box-shadow: rgba(107, 107, 107, 0.116) 5px 5px 45px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 99;
+}
+nav{
+    width: 100%;
+    display: grid;
+    grid-template-columns: .5fr 0fr 2fr;
+    align-items: center;
+}
+nav > div{
+    margin: 0px;
+}
+.logo{
+ width: 100%;
+ margin-left: 30px;
+}
+.logo img{
+    padding: 15px;
+}
+.menu-items ul{
+    list-style: none;
+}
+.menu-items ul li{   
+    padding: 20px;
+    float: right;
+    margin-right: 5%;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+.mobile-menu{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    position: absolute;
+    right: 10px;
+}
+.mobile-menu .a, .b, .c{
+    margin:4px;
+    padding: 1px;
+    width: 30px;
+    display: block;
+    height: 2px;
+    background-color: rgb(136, 136, 136);
+}
+
+.header-data{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr;
+}
+.header-data >div{
+    border: 1px solid rgb(243, 243, 243);
+    border-bottom: none;
+}
+.search-area{
+    border: 1px solid rgb(218, 216, 216);
+    border-top: none;
+    border-bottom: none;
+}
+.search-area input{
+    padding: 30px;
+    width: 80%;
+    margin-left: 0px;
+    border: none;
+    margin: auto;
+    font-size: 14px;
+    outline: none;
+    color: rgb(139, 139, 139);
+    font-weight: 600;
+}
+.search-area button{
+    padding: 30px;
+    outline: none;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    color: rgb(80, 80, 80);
+}
+.header-data img{
+    width: 20px;
+    margin: 30px 35px;
+    margin-bottom: 0px;
+}
+.cart-area span{
+    position: absolute;
+    right: 8px;
+    top: 80px;
+    color: rgb(250, 11, 11);
+    border-radius: 100%;
+    padding: 5px;
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    
+}
+.cart-area p{
+    text-align: center;
+    width: 10px;
+    font-weight: 700;
+    position: absolute;
+    top: 0px;
+    font-size: 20px;
+}
     .menu-items{
         display: none;
     }
@@ -1006,22 +1031,15 @@ nav > div{
        
 }
 
-
-
 /*
 -----------------------------------
------------------------------------
------------------------------------
 ------------MEDIA QUERIES----------
------------------------------------
------------------------------------
 -----------------------------------
 */
 
 @media screen and (max-width: 766px){
       
     .container{
-        background-color: #fff;
         height: 80px;
         display: grid;
         grid-template-columns: 12fr;
@@ -1083,7 +1101,7 @@ nav > div{
 .header-data{
     background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr 1fr;
+    grid-template-columns: 9fr .5fr .5fr .5fr;
 }
 .header-data >div{
     border: 1px solid rgb(243, 243, 243);
@@ -1095,10 +1113,11 @@ nav > div{
     border-bottom: none;
 }
 .search-area input{
-    padding: 30px;
-    width: 60%;
+    padding: 20px;
+    width: 70%;
     margin: 1px;
     margin-left: 0px;
+    float: none;
     border: none;
     font-size: 14px;
     outline: none;
@@ -1106,7 +1125,8 @@ nav > div{
     font-weight: 600;
 }
 .search-area button{
-    padding: 30px;
+    padding: 20px;
+    margin: 1%;
     outline: none;
     cursor: pointer;
     border: none;
@@ -1115,13 +1135,13 @@ nav > div{
 }
 .header-data img{
     width: 20px;
-    margin: 30px 35px;
+    margin: 20px 25px;
     margin-bottom: 0px;
 }
 .cart-area span{
     position: absolute;
-    right: 8px;
-    top: 80px;
+    right: 4px;
+    top: 70px;
     color: rgb(250, 11, 11);
     border-radius: 100%;
     padding: 5px;
@@ -1136,7 +1156,7 @@ nav > div{
     font-weight: 700;
     position: absolute;
     top: 0px;
-    font-size: 20px;
+    font-size: 16px;
 }
     .menu-items{
         display: none;
@@ -1376,18 +1396,13 @@ nav > div{
 
 /*
 -----------------------------------
------------------------------------
------------------------------------
 ------------MEDIA QUERIES----------
------------------------------------
------------------------------------
 -----------------------------------
 */
 
 @media screen and (max-width: 510px){
       
     .container{
-        background-color: #fff;
         height: 80px;
         display: grid;
         grid-template-columns: 12fr;
@@ -1410,7 +1425,7 @@ nav > div{
 }
 .logo{
  width: 100%;
- margin-left: 30px;
+ margin-left: 0px;
 }
 .logo img{
     padding: 15px;
@@ -1449,13 +1464,12 @@ nav > div{
 .header-data{
     background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: 65vw 10vw 10vw 10vw;
+    grid-template-columns: 9fr 1fr 1fr 1fr;
 }
 .header-data >div{
     border-bottom: none;
 }
 .search-area{
-    border: 1px solid rgb(218, 216, 216);
     border-top: none;
     border-bottom: none;
 }
@@ -1467,11 +1481,10 @@ nav > div{
     border: none;
     font-size: 14px;
     outline: none;
-    color: rgb(221, 61, 61);
     font-weight: 600;
 }
 .search-area button{
-    display: none;
+    padding: 10px; 
     outline: none;
     cursor: pointer;
     border: none;
@@ -1485,7 +1498,7 @@ nav > div{
 }
 .cart-area span{
     position: absolute;
-    right: -6px;
+    right: -10px;
     top: 65px;
     color: rgb(250, 11, 11);
     border-radius: 100%;
@@ -1670,21 +1683,7 @@ nav > div{
     padding: 0px;
     margin: 0px 8px;
 }
-.choose-products .fa-heart{
-    color: red;
-}
-.choose-products .canti input{
-    outline: none;
-    padding: 5px;
-}
-.choose-products .fa-cart-plus{
-    color: rgb(3, 211, 3);
-    transition: 1s;
-}
-.choose-products .fa-cart-plus:hover{
-    transition: 1s;
-    color: rgb(3, 155, 3);
-}
+
 
  /*FOOTER*/
 
