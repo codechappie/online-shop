@@ -222,8 +222,8 @@ nav > div{
     height: 100vh;
 }
 .slick-slide {
-    width: 250px;
-    height: 200px;
+    width: 290px;
+    height: 150px;
     background-color: cadetblue;
     margin: 5px;
     outline: none;
@@ -508,7 +508,7 @@ nav > div{
 .popular-carousel{
     margin: auto;
     width: 80%;
-    height: 100vh;
+    height: 80vh;
 }
 .popular-carousel h2{
     margin-top: 70px;
@@ -584,21 +584,7 @@ nav > div{
     padding: 0px;
     margin: 0px 8px;
 }
-.choose-products .fa-heart{
-    color: red;
-}
-.choose-products .canti input{
-    outline: none;
-    padding: 5px;
-}
-.choose-products .fa-cart-plus{
-    color: rgb(3, 211, 3);
-    transition: 1s;
-}
-.choose-products .fa-cart-plus:hover{
-    transition: 1s;
-    color: rgb(3, 155, 3);
-}
+
 
  /*FOOTER*/
 
@@ -681,7 +667,6 @@ nav > div{
 
 @media screen and (max-width: 928px){
     .container{
-        background-color: rgb(255, 255, 255);
         height: 80px;
         display: grid;
         grid-template-columns: 12fr;
@@ -727,7 +712,7 @@ nav > div{
     cursor: pointer;
     width: 40px;
     height: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
     position: absolute;
     right: 10px;
 }
@@ -744,10 +729,7 @@ nav > div{
     background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 6fr 1fr 1fr 1fr;
-}
-.header-data >div{
-    border: 1px solid rgb(243, 243, 243);
-    border-bottom: none;
+    border-bottom: 1px solid rgb(240, 240, 240);
 }
 .search-area{
     border: 1px solid rgb(218, 216, 216);
@@ -812,7 +794,6 @@ nav > div{
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     grid-gap: 10px;
-    background-color: rgb(110, 89, 23);
 }
 .clothes{
     margin: 40px 10px;
@@ -849,9 +830,9 @@ nav > div{
     background-size: cover;
 }
 .popular-carousel{
+    width: 85%;
+    height: 70vh;
     margin: auto;
-    width: 80%;
-    height: 100vh;
 }
 .popular-carousel h2{
     margin-top: 70px;
@@ -925,21 +906,6 @@ nav > div{
     width: 50%;
     padding: 0px;
     margin: 0px 8px;
-}
-.choose-products .fa-heart{
-    color: red;
-}
-.choose-products .canti input{
-    outline: none;
-    padding: 5px;
-}
-.choose-products .fa-cart-plus{
-    color: rgb(3, 211, 3);
-    transition: 1s;
-}
-.choose-products .fa-cart-plus:hover{
-    transition: 1s;
-    color: rgb(3, 155, 3);
 }
 
  /*FOOTER*/
@@ -1085,9 +1051,9 @@ nav > div{
     cursor: pointer;
     width: 40px;
     height: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
     position: absolute;
-    right: 10px;
+    right: 20px;
 }
 .mobile-menu .a, .b, .c{
     margin:4px;
@@ -1172,7 +1138,6 @@ nav > div{
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     grid-gap: 10px;
-    background-color: rgb(110, 89, 23);
 }
 .clothes{
     margin: 40px 10px;
@@ -1207,11 +1172,6 @@ nav > div{
     background-image: url('../img/bg-img/bg-4.jpg');
     background-position: 50% 50%;
     background-size: cover;
-}
-.popular-carousel{
-    margin: auto;
-    width: 80%;
-    height: 100vh;
 }
 .popular-carousel h2{
     margin-top: 70px;
@@ -1256,7 +1216,7 @@ nav > div{
     padding: 10px;
 }
 .details h3{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: rgb(43, 43, 43);
 }
@@ -1285,24 +1245,7 @@ nav > div{
     width: 50%;
     padding: 0px;
     margin: 0px 8px;
-}
-.choose-products .fa-heart{
-    color: red;
-}
-.choose-products .canti input{
-    outline: none;
-    padding: 5px;
-}
-.choose-products .fa-cart-plus{
-    color: rgb(3, 211, 3);
-    transition: 1s;
-}
-.choose-products .fa-cart-plus:hover{
-    transition: 1s;
-    color: rgb(3, 155, 3);
-}
-
- /*FOOTER*/
+} /*FOOTER*/
 
  footer{
      width: 100%;
@@ -1448,7 +1391,7 @@ nav > div{
     cursor: pointer;
     width: 40px;
     height: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
     position: absolute;
     right: 10px;
 }
@@ -1534,7 +1477,7 @@ nav > div{
 .initial-info{
     width: 50vw;
     height: 100vh;
-    padding: 250px 20px;
+    padding: 30vh 4vh;
 }
 .initial-info h6{
     font-size: 18px;
@@ -1606,9 +1549,9 @@ nav > div{
     background-size: cover;
 }
 .popular-carousel{
+    width: 95%;
+    height: 80vh;
     margin: auto;
-    width: 90%;
-    height: 100vh;
 }
 .popular-carousel h2{
     margin-top: 70px;
@@ -1620,8 +1563,16 @@ nav > div{
 .owl-carousel{
     width: 90%;
     height: 300px;
-    margin-left: 10px;
+    margin: auto;
 }
+.slick-slide {
+    width: 340px;
+    height: 150px;
+    background-color: rgb(110, 160, 95);
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+  }
 .item{
     margin-top: 70px;
     width: 90%;
@@ -1631,7 +1582,6 @@ nav > div{
     grid-template-rows: 2fr 1fr;
     border: 1px solid rgb(235, 235, 235);
 }
-
 .img-product{
     width: 100%;
     height: 100%;
@@ -1653,12 +1603,12 @@ nav > div{
     padding: 10px;
 }
 .details h3{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: rgb(43, 43, 43);
 }
 .details h6{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: rgb(51, 51, 51);
 }
